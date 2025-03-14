@@ -22,23 +22,17 @@
   <li class="sidebar-item">
     <a class="sidebar-link" href="./Reports.php">
         <i class="align-middle" data-feather="bar-chart-2"></i>
-        <span class="align-middle">Reports & Analytics</span>
+        <span class="align-middle">Reports and Logs</span>
     </a>
   </li>
 
   <li class="sidebar-item">
     <a class="sidebar-link" href="./jobs.php">
         <i class="align-middle" data-feather="briefcase"></i>
-        <span class="align-middle">Jobs</span>
+        <span class="align-middle">Validation Tasks</span>
     </a>
   </li>
 
-  <li class="sidebar-item">
-    <a class="sidebar-link" href="./logs.php">
-        <i class="align-middle" data-feather="database"></i>
-        <span class="align-middle">Logs</span>
-    </a>
-  </li>
 
   <li class="sidebar-item">
     <a class="sidebar-link" href="./reviews.php">

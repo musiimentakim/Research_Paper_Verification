@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head>ug
 	<?php include "../Components/head.php" ?>
 </head>
 

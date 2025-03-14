@@ -10,7 +10,7 @@
 		<?php include "./ValidatorSideBar.php" ?>
 
 		<div class="main">
-			<nav class="navbar navbar-expand navbar-light navbar-bg">
+		<nav class="navbar navbar-expand navbar-light navbar-bg">
 				<a class="sidebar-toggle js-sidebar-toggle">
           <i class="hamburger align-self-center"></i>
         </a>
@@ -23,12 +23,12 @@
               </a>
 
 							<a class="nav-link d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Charles Hall</span>
+                <img src="../../assets/images/avatar.png" class="avatar img-fluid rounded me-1" alt="Validator" /> <span class="text-dark">Validator</span>
               </a>
 						</li>
 					</ul>
 				</div>
-			</nav>
+			</nav>			
 
 			<main class="content">
     <div class="container-fluid p-0">

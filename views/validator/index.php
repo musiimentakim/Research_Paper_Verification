@@ -23,7 +23,7 @@
               </a>
 
 							<a class="nav-link d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Charles Hall</span>
+                <img src="../../assets/images/avatar.png" class="avatar img-fluid rounded me-1" alt="Validator" /> <span class="text-dark">Validator</span>
               </a>
 						</li>
 					</ul>
@@ -150,71 +150,112 @@
               </div>
             </div>
 
-            <!-- Paper Validation Section -->
-            <section class="section validation">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a href="paper_validation.php" class="card validation-card">
-                                <div class="card-body text-center">
-                                    <i class="bi bi-check-circle" style="font-size: 2rem;"></i>
-                                    <h5 class="card-title">Paper Validation</h5>
-                                    <p class="card-text">Upload and verify research papers efficiently.</p>
-                                </div>
-                            </a>
-                        </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="card-title">Line Chart</div>
+                  </div>
+                  <div class="card-body">
+                    <div class="chart-container">
+                    <canvas id="lineChart" style="width: 100%; height: 300px;"></canvas>
                     </div>
-                </section>
+                  </div>
+                </div>
+              </div>
 
-
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="card-title">Pie Chart</div>
+                  </div>
+                  <div class="card-body">
+                    <div class="chart-container">
+                    <canvas id="pieChart" style="width: 100%; height: 300px;"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div class="col-12">
-              <div class="card recent-sales overflow-auto">
-                <div class="card-body">
-                  <h5 class="card-title">Pending Papers <span>| Today</span></h5>
-                  <table class="table table-borderless datatable">
-                    <thead>
-                      <tr>
+    <div class="card recent-sales overflow-auto">
+        <div class="card-body">
+            <h5 class="card-title">Paper Review Summary <span>| Today</span></h5>
+            <table class="table table-borderless datatable">
+                <thead>
+                    <tr>
                         <th scope="col">DOI</th>
                         <th scope="col">Author</th>
                         <th scope="col">Paper Title</th>
                         <th scope="col">Reviewer</th>
                         <th scope="col">Time Elapsed</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">#RP7891</th>
+                        <th scope="col">Status</th> <!-- Status column -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Pending Papers (Highest Priority) -->
+                    <tr>
+                        <th scope="row">
+                            <a href="https://doi.org/10.1234/RP7891" target="_blank">#RP7891</a>
+                        </th>
                         <td>Dr. Alice Brown</td>
                         <td>Deep Learning in Medical Imaging</td>
                         <td>John Doe</td>
-                        <td>2.5 hours</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">#RP2345</th>
+                        <td>2h 30m</td>
+                        <td><span class="badge bg-warning text-dark">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <a href="https://doi.org/10.1234/RP2345" target="_blank">#RP2345</a>
+                        </th>
                         <td>Prof. Mark Lee</td>
                         <td>AI Ethics and Bias</td>
                         <td>Jane Smith</td>
-                        <td>4 hours</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">#RP7891</th>
-                        <td>Dr. Alice Brown</td>
-                        <td>Deep Learning in Medical Imaging</td>
-                        <td>John Doe</td>
-                        <td>2.5 hours</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">#RP7891</th>
-                        <td>Dr. Alice Brown</td>
-                        <td>Deep Learning in Medical Imaging</td>
-                        <td>John Doe</td>
-                        <td>2.5 hours</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
+                        <td>4h 00m</td>
+                        <td><span class="badge bg-warning text-dark">Pending</span></td>
+                    </tr>
+
+                    <!-- Verified Papers -->
+                    <tr>
+                        <th scope="row">
+                            <a href="https://doi.org/10.1234/RP3456" target="_blank">#RP3456</a>
+                        </th>
+                        <td>Dr. Emily Carter</td>
+                        <td>Quantum Computing in AI</td>
+                        <td>Michael Johnson</td>
+                        <td>12h 45m</td>
+                        <td><span class="badge bg-info text-dark">Verified</span></td>
+                    </tr>
+
+                    <!-- Accepted Papers -->
+                    <tr>
+                        <th scope="row">
+                            <a href="https://doi.org/10.1234/RP5678" target="_blank">#RP5678</a>
+                        </th>
+                        <td>Dr. Sarah White</td>
+                        <td>Neural Networks in Healthcare</td>
+                        <td>David Kim</td>
+                        <td>1d 2h</td>
+                        <td><span class="badge bg-success">Accepted</span></td>
+                    </tr>
+
+                    <!-- Rejected Papers -->
+                    <tr>
+                        <th scope="row">
+                            <a href="https://doi.org/10.1234/RP6789" target="_blank">#RP6789</a>
+                        </th>
+                        <td>Prof. Daniel Green</td>
+                        <td>Bias in AI Training Data</td>
+                        <td>Olivia Roberts</td>
+                        <td>2d 5h</td>
+                        <td><span class="badge bg-danger">Rejected</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
       </div>
     </section>
     </div>
@@ -225,6 +266,7 @@
 			</footer>
 		</div>
 	</div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<?php include "../Components/js-links.php" ?>
 </body>
 </html>
