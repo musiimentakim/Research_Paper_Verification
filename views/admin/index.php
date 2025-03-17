@@ -23,7 +23,7 @@
               </a>
 
 							<a class="nav-link d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Charles Hall</span>
+                <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Admin" /> <span class="text-dark">Admin</span>
               </a>
 						</li>
 					</ul>
@@ -39,16 +39,16 @@
             <div class="col-xxl-4 col-lg-4 col-md-6">
               <div class="card info-card revenue-card">
                 <div class="card-body">
-                  <h5 class="card-title">Available Jobs</h5>
+                  <h5 class="card-title">Total Papers</h5>
                   <div class="d-flex align-items-center">
                     <div class="col-auto">
-											<div class="stat text-primary">
-                        <i class="align-middle" data-feather="map-pin"></i>
+                      <div class="stat text-primary">
+                        <i class="align-middle" data-feather="file-text"></i>
                       </div>
                     </div>
                     <div class="ps-3">
-                      <h6>145</h6>
-                      <span class="text-muted">clients</span>
+                      <h6>1,245</h6>
+                      <span class="text-muted">submitted papers</span>
                     </div>
                   </div>
                 </div>
@@ -58,16 +58,16 @@
             <div class="col-xxl-4 col-lg-4 col-md-6">
               <div class="card info-card revenue-card">
                 <div class="card-body">
-                  <h5 class="card-title">Pending Jobs</h5>
+                  <h5 class="card-title">Pending Verification</h5>
                   <div class="d-flex align-items-center">
                     <div class="col-auto">
-											<div class="stat text-primary">
-                        <i class="align-middle" data-feather="activity"></i>
+                      <div class="stat text-warning">
+                        <i class="align-middle" data-feather="clock"></i>
                       </div>
                     </div>
                     <div class="ps-3">
                       <h6>264</h6>
-                      <span class="text-muted">clients</span>
+                      <span class="text-muted">awaiting review</span>
                     </div>
                   </div>
                 </div>
@@ -77,16 +77,54 @@
             <div class="col-xxl-4 col-lg-4 col-md-6">
               <div class="card info-card revenue-card">
                 <div class="card-body">
-                  <h5 class="card-title">Cleared Jobs</h5>
+                  <h5 class="card-title">Verified Papers</h5>
                   <div class="d-flex align-items-center">
                     <div class="col-auto">
-											<div class="stat text-primary">
-                        <i class="align-middle" data-feather="check-square"></i>
+                      <div class="stat text-success">
+                        <i class="align-middle" data-feather="check-circle"></i>
                       </div>
                     </div>
                     <div class="ps-3">
-                      <h6>1244</h6>
-                      <span class="text-muted">clients</span>
+                      <h6>876</h6>
+                      <span class="text-muted">successfully verified</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-4 col-lg-4 col-md-6">
+              <div class="card info-card revenue-card">
+                <div class="card-body">
+                  <h5 class="card-title">Active Validators</h5>
+                  <div class="d-flex align-items-center">
+                    <div class="col-auto">
+                      <div class="stat text-info">
+                        <i class="align-middle" data-feather="users"></i>
+                      </div>
+                    </div>
+                    <div class="ps-3">
+                      <h6>24</h6>
+                      <span class="text-muted">working validators</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-4 col-lg-4 col-md-6">
+              <div class="card info-card revenue-card">
+                <div class="card-body">
+                  <h5 class="card-title">Rejected Papers</h5>
+                  <div class="d-flex align-items-center">
+                    <div class="col-auto">
+                      <div class="stat text-danger">
+                        <i class="align-middle" data-feather="x-circle"></i>
+                      </div>
+                    </div>
+                    <div class="ps-3">
+                      <h6>105</h6>
+                      <span class="text-muted">failed verification</span>
                     </div>
                   </div>
                 </div>
@@ -95,82 +133,82 @@
 
             <div class="col-12">
               <div class="card recent-sales overflow-auto">
-
                 <div class="card-body">
-                  <h5 class="card-title">Pending Jobs <span>| Today</span></h5>
+                  <h5 class="card-title">Recent Paper Submissions <span>| Today</span></h5>
 
                   <table class="table table-borderless datatable">
                     <thead>
                       <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Customer</th>
-                        <th scope="col">Car Details</th>
-                        <th scope="col">Mechanic</th>
-                        <th scope="col">Time Elapsed</th>
+                        <th scope="col">Paper ID</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Author(s)</th>
+                        <th scope="col">Submission Date</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Assigned Validator</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">#SS7891</th>
-                        <td>Mayen Atem</td>
-                        <td>SSC 789</td>
-                        <td>Joseph Lual</td>
-                        <td>2.5 hours</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">#SS2345</th>
-                        <td>Abuk Makuach</td>
-                        <td>SSD 321</td>
-                        <td>Michael Wani</td>
-                        <td>4 hours</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">#SS6578</th>
-                        <td>Garang Akol</td>
-                        <td>SSE 876</td>
-                        <td>David Majok</td>
-                        <td>1.5 hours</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">#SS1987</th>
-                        <td>Nyachol Adut</td>
-                        <td>SSF 543</td>
-                        <td>Simon Gatluak</td>
-                        <td>3.2 hours</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">#SS4562</th>
-                        <td>Manut Kuir</td>
-                        <td>SSG 987</td>
-                        <td>Peter Malith</td>
-                        <td>2.8 hours</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">#SS8765</th>
-                        <td>Awet Gatkuoth</td>
-                        <td>SSH 234</td>
-                        <td>John Ariik</td>
-                        <td>2 hours</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">#SS3219</th>
-                        <td>Aluel Kuany</td>
-                        <td>SSI 678</td>
-                        <td>Daniel Lueth</td>
-                        <td>3.5 hours</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">#SS5432</th>
-                        <td>Chol Majur</td>
-                        <td>SSJ 876</td>
-                        <td>Thomas Deng</td>
-                        <td>2.3 hours</td>
-                    </tr>
+                        <th scope="row">#PAP7891</th>
+                        <td>Machine Learning in Healthcare</td>
+                        <td>Dr. John Smith, et al.</td>
+                        <td>2024-03-20</td>
+                        <td><span class="badge bg-warning">Pending</span></td>
+                        <td>Dr. Sarah Johnson</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#PAP2345</th>
+                        <td>Climate Change Impact Analysis</td>
+                        <td>Prof. Michael Brown</td>
+                        <td>2024-03-20</td>
+                        <td><span class="badge bg-success">Verified</span></td>
+                        <td>Dr. Emily Davis</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#PAP6578</th>
+                        <td>Quantum Computing Applications</td>
+                        <td>Dr. Robert Wilson</td>
+                        <td>2024-03-19</td>
+                        <td><span class="badge bg-warning">Pending</span></td>
+                        <td>Prof. James Wilson</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#PAP1987</th>
+                        <td>Renewable Energy Systems</td>
+                        <td>Dr. Lisa Anderson</td>
+                        <td>2024-03-19</td>
+                        <td><span class="badge bg-danger">Rejected</span></td>
+                        <td>Dr. Mark Thompson</td>
+                      </tr>
                     </tbody>
                   </table>
-
                 </div>
+              </div>
+            </div>
 
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="card-title">Verification Trends</h5>
+                </div>
+                <div class="card-body">
+                  <div class="chart-container">
+                    <canvas id="verificationTrends" style="width: 100%; height: 300px;"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="card-title">Verification Status Distribution</h5>
+                </div>
+                <div class="card-body">
+                  <div class="chart-container">
+                    <canvas id="statusDistribution" style="width: 100%; height: 300px;"></canvas>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -185,5 +223,47 @@
 		</div>
 	</div>
 	<?php include "../Components/js-links.php" ?>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script>
+		// Verification Trends Chart
+		const trendsCtx = document.getElementById('verificationTrends').getContext('2d');
+		new Chart(trendsCtx, {
+			type: 'line',
+			data: {
+				labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+				datasets: [{
+					label: 'Papers Verified',
+					data: [65, 59, 80, 81, 56, 55],
+					borderColor: 'rgb(75, 192, 192)',
+					tension: 0.1
+				}]
+			},
+			options: {
+				responsive: true,
+				maintainAspectRatio: false
+			}
+		});
+
+		// Status Distribution Chart
+		const statusCtx = document.getElementById('statusDistribution').getContext('2d');
+		new Chart(statusCtx, {
+			type: 'doughnut',
+			data: {
+				labels: ['Verified', 'Pending', 'Rejected'],
+				datasets: [{
+					data: [70, 20, 10],
+					backgroundColor: [
+						'rgb(75, 192, 192)',
+						'rgb(255, 205, 86)',
+						'rgb(255, 99, 132)'
+					]
+				}]
+			},
+			options: {
+				responsive: true,
+				maintainAspectRatio: false
+			}
+		});
+	</script>
 </body>
 </html>
