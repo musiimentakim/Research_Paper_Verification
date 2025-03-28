@@ -1,0 +1,94 @@
+#doc-details {
+    width: 100%; /* Adjust width to desired size */
+    max-width: 1000px; /* Set a maximum width */
+    padding: 10px; /* Reduce padding */
+    border-radius: 13px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#doc-details .card-body {
+    padding: 10px; /* Reduce internal padding */
+}
+
+#availability-check {
+    width: 100%; /* Adjust width to desired size */
+    max-width: 1000px; /* Set a maximum width */
+    padding: 10px; /* Reduce padding */
+    border-radius: 13px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#availability-check .card-body {
+    padding: 10px; /* Reduce internal padding */
+}
+
+
+#credibility-check {
+    width: 100%; /* Adjust width to desired size */
+    max-width: 1000px; /* Set a maximum width */
+    padding: 10px; /* Reduce padding */
+    border-radius: 13px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#credibility-check .card-body {
+    padding: 10px; /* Reduce internal padding */
+}
+
+
+#legitimacy-check {
+    width: 100%; /* Adjust width to desired size */
+    max-width: 1000px; /* Set a maximum width */
+    padding: 10px; /* Reduce padding */
+    border-radius: 13px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#legitimacy-check .card-body {
+    padding: 10px; /* Reduce internal padding */
+}
+
+#plagiarism-check {
+    width: 100%; /* Adjust width to desired size */
+    max-width: 1000px; /* Set a maximum width */
+    padding: 10px; /* Reduce padding */
+    border-radius: 13px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#plagiarism-check .card-body {
+    padding: 10px; /* Reduce internal padding */
+}
+
+#doc-actions {
+    width: 100%; /* Adjust width to desired size */
+    max-width: 1000px; /* Set a maximum width */
+    padding: 10px; /* Reduce padding */
+    border-radius: 13px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#doc-actions .card-body {
+    padding: 10px; /* Reduce internal padding */
+}
+
+.similarity-index {
+    margin-bottom: 20px; /* Adds spacing between the cards */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plagiarism-index {
+    margin-bottom: 20px; /* Adds spacing between the cards */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-info {
+    opacity: 0.6; /* Makes buttons appear muted */
+    pointer-events: none; /* Disables click actions */
+}

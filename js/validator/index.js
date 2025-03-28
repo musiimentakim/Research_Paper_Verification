@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tooltip: {
                     callbacks: {
                         label: function (tooltipItem) {
-                            return `Papers Submitted: ${tooltipItem.raw}`;
+                            return `Papers validated: ${tooltipItem.raw}`;
                         },
                     },
                 },
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 {
                     label: "Paper Distribution",
                     data: [60, 25, 15], // Example percentages
-                    backgroundColor: ["#33FF57", "#3357FF", "#FF5733"], // Green for verified, Blue for accepted, Red for rejected
+                    backgroundColor: ["#33FF57", "#90D5FF", "#FF8DA1"], // Green for verified, Blue for accepted, Red for rejected
                     borderWidth: 1,
                 },
             ],

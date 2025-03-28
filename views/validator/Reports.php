@@ -3,34 +3,15 @@
 
 <head>
 	<?php include "../Components/head.php" ?>
+	<?php include "../Components/css-links.php" ?>
+    
 </head>
 
 <body>
 	<div class="wrapper">
-		<?php include "./ValidatorSideBar.php" ?>
-
 		<div class="main">
-			<nav class="navbar navbar-expand navbar-light navbar-bg">
-				<a class="sidebar-toggle js-sidebar-toggle">
-          <i class="hamburger align-self-center"></i>
-        </a>
-
-				<div class="navbar-collapse collapse">
-					<ul class="navbar-nav navbar-align">
-						<li class="nav-item dropdown">
-							<a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
-                <i class="align-middle" data-feather="settings"></i>
-              </a>
-
-							<a class="nav-link d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="img/avatars/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Charles Hall</span>
-              </a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-
-			<main class="content">
+			<?php include "./validatornavBar.php" ?>
+            <main class="content">
     			<div class="container-fluid p-0">
     				<h1 class="h3">Reports</h1>
 
@@ -66,8 +47,11 @@
                                         </div>
                                     </div>
                                     <div class="mt-3">
-                                        <button type="submit" class="btn btn-primary">Generate Report</button>
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fas fa-filter me-2"></i> Filter Reports
+                                        </button>
                                     </div>
+
                                 </form>
                             </div>
                         </div>
@@ -118,7 +102,7 @@
                     </div>
 
                 </div>
-            </main>
+            </main>         
 
 			<footer class="footer">
 				<?php include "../Components/footer.php" ?>
@@ -126,5 +110,8 @@
 		</div>
 	</div>
 	<?php include "../Components/js-links.php" ?>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

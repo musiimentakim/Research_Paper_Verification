@@ -1,0 +1,41 @@
+#billing-card, #subscription-card {
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background: white;
+    height: 250px; /* Ensuring same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translateY(2cm); /* Move down by 2cm */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Ensuring the same width for both cards */
+#billing-card, #subscription-card {
+    min-width: 100%; /* Ensuring both fill their container */
+}
+
+/* Hover Effect */
+#billing-card:hover, #subscription-card:hover {
+    transform: translateY(2cm) scale(1.02);
+}
+
+/* Headers */
+#billing-header, #subscription-header {
+    background-color: #f8f9fa; /* Light gray header */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+}
+
+/* Titles */
+#billing-title, #subscription-title {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow */
+}
+
+/* Body Styling */
+#billing-body, #subscription-body {
+    font-size: 16px;
+    padding: 15px;
+}

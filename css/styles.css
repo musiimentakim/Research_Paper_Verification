@@ -122,3 +122,163 @@ body {
     color: white;
 }
 
+.container-fluid {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: auto; /* Centers the form */
+    padding: 10px; /* Adjust padding to reduce space */
+}
+
+.card {
+    padding: 10px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.form-control, .form-select {
+    width: 100%; /* Ensures elements take full width of the container */
+    margin-bottom: 10px;
+}
+
+.d-flex.justify-content-center {
+    margin-top: 10px;
+}
+
+
+/* General Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Progress Bar */
+.progress {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    font-weight: bold;
+}
+
+/* Cards */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Inputs */
+.form-control, .form-select {
+    border-radius: 5px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+/* Apply Open Sans font to all elements */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Parent Card Styling */
+.verification-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 12px; /* Increased border radius */
+}
+
+/* Inner Cards Styling */
+.inner-card {
+    padding: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px; /* Increased border radius */
+    background-color: white;
+}
+
+/* Verification Notes Card */
+.verification-notes {
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    background-color: white;
+}
+
+/* Title and Text Styling */
+.card-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Make text in last card normal (not bold) */
+.normal-text {
+    font-weight: normal;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Separator Line */
+.separator {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+/* Verified Badge */
+.verified-badge {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+/* Dropdown Button */
+.dropdown-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+
+/* Reduce vertical spacing between cards */
+.verification-card, .inner-card {
+    margin-bottom: 6px; /* Reduce bottom margin */
+}
+
+/* Reduce padding inside cards */
+.verification-card {
+    padding: 12px; /* Adjust padding inside the main card */
+}
+
+.inner-card {
+    padding: 8px; /* Reduce padding for inner cards */
+}
+
+/* Reduce gap between rows */
+.row {
+    margin-bottom: 6px; /* Reduce spacing between rows */
+}
+
+
